@@ -1,6 +1,15 @@
 
 
+.row {
+    min-height: 200px;
+    background: rgb(20, 80, 120)
+}
 
+.col {
+    border: 1px solid #000;
+    height: 50px;
+    background: rgb(206, 76, 76);
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
  /* No media query for `xs` since this is the default in Bootstrap */
