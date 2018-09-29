@@ -1,8 +1,25 @@
 
 
-.row {
+/* .row {
     min-height: 200px;
     background: rgb(20, 80, 120)
+} */
+
+#mainrow {
+    min-height: 150px;
+    justify-content: center
+}
+
+#secondrow{
+    min-height: 50px;
+    justify-content: center
+}
+#secondrow > img{
+    margin: 5px
+}
+
+.row>span {
+    flex-grow: 1
 }
 
 /* .col, .row>div {
